@@ -4,5 +4,5 @@ class BlockSet():
 		self.blocks = []
 	
 	
-	def add_block(block):
-		pass
+	def add_block(self, block):
+		self.blocks.append(block)
