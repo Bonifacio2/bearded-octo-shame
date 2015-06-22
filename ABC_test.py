@@ -4,8 +4,12 @@ from ABC import BlockSet
 
 class ABCTest(unittest.TestCase):
 	
-	def test_something(self):
+	def test_add_block(self):
 		block_set = BlockSet()
+		
+		block_set.add_block()
+		
+		self.assertEqual(len(block_set.blocks), 0)
 		
 if __name__ == '__main__':
 	unittest.main()
