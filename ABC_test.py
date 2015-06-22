@@ -1,5 +1,7 @@
 import unittest
 
+from ABC import BlockSet
+
 class ABCTest(unittest.TestCase):
 	
 	def test_something(self):
